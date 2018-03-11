@@ -1,0 +1,24 @@
+<launch>
+  <node pkg="rbx1_apps" name="led_drone_tracker" type="led_drone_tracker.py" output="screen">
+    <remap from="camera_info" to="/ardrone/front/camera_info" />
+    <rosparam>
+       rate: 10
+
+       max_rotation_speed: 0.1
+       min_rotation_speed: 0.05
+       x_threshold: 0.2 #
+       gain: 0.15 #0.1
+
+       max_vertical_speed: 0.3
+       min_vertical_speed: 0.15
+       y_threshold: 0.2
+       gain_y: 0.7
+
+       max_dis_speed: 0.05 #0.04
+       min_dis_speed: 0.03 #0.02
+       z_threshold: 0.15 #0.1
+       gain_z: 0.2 #0.15
+
+    </rosparam>
+  </node>
+</launch>
