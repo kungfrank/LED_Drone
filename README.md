@@ -1,6 +1,6 @@
 # LED_Drone
 
-This is a project base on ROS using AR.Drone, RaspberryPi3 and Arduino with LED Strip.
+This is a project base on ROS using AR.Drone, RaspberryPi3 and Arduino with LED Strip.To achieve light show with drone.
 
 <p align="center">
   <img src="https://github.com/kungfrank/LED_Drone/blob/master/Drone2.png" width="350"/>
